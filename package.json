@@ -1,14 +1,16 @@
 {
-  "name": "@mrmgomes/boleto-utils",
-  "version": "1.2.0",
+  "name": "@weslleynasrocha/boleto-utils",
+  "version": "2.0.1",
   "description": "Biblioteca com funções úteis para a validação de todos os tipos de boleto",
-  "main": "./src/boleto-utils.js",
+  "main": "./dist/boleto-utils.js",
+  "types": "./dist/boleto-utils.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "jest",
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrmgomes/boleto-utils.git"
+    "url": "git+https://github.com/WeslleyNasRocha/boleto-utils.git"
   },
   "keywords": [
     "boleto",
@@ -20,20 +22,26 @@
     "barras",
     "linha",
     "digitavel",
-    "mrmgomes",
     "javascript"
   ],
-  "author": "Marcelo Gomes",
+  "author": {
+    "name": "Weslley Rocha"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrmgomes/boleto-utils/issues"
+    "url": "https://github.com/WeslleyNasRocha/boleto-utils/issues"
   },
-  "homepage": "https://github.com/mrmgomes/boleto-utils#readme",
+  "homepage": "https://github.com/WeslleyNasRocha/boleto-utils#readme",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
     "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "jest": "^29.7.0",
+    "mocha": "^8.0.1",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "moment-timezone": "^0.5.31"
+    "moment-timezone": "^0.5.45"
   }
 }
