@@ -4,3 +4,6 @@ test
 jest.config.js
 tsconfig.json
 tsup.config.ts
+*.tgz
+*.tar.gz
+

@@ -1,6 +1,6 @@
 {
-  "name": "@weslleynasrocha/boleto-utils",
-  "version": "2.0.1",
+  "name": "@weslleyrocha/boleto-utils",
+  "version": "2.0.2",
   "description": "Biblioteca com funções úteis para a validação de todos os tipos de boleto",
   "main": "./dist/boleto-utils.js",
   "types": "./dist/boleto-utils.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WeslleyNasRocha/boleto-utils.git"
+    "url": "https://github.com/WeslleyNasRocha/boleto-utils.git"
   },
   "keywords": [
     "boleto",
