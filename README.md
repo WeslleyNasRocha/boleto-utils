@@ -1,4 +1,4 @@
-![tests](https://github.com/weslleynasrocha/boleto-utils/workflows/tests/badge.svg)
+[![tests](https://github.com/WeslleyNasRocha/boleto-utils/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/WeslleyNasRocha/boleto-utils/actions/workflows/node.js.yml)
 # boleto-utils
 Biblioteca com funções úteis para a validação de todos os tipos de boleto
 
